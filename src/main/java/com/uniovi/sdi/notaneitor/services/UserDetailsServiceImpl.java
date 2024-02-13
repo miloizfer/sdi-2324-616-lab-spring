@@ -1,6 +1,7 @@
-package com.uniovi.sdi.notaneitor.repositories;
+package com.uniovi.sdi.notaneitor.services;
 
 import com.uniovi.sdi.notaneitor.entities.User;
+import com.uniovi.sdi.notaneitor.repositories.UsersRepository;
 import org.springframework.stereotype.Service;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.GrantedAuthority;
